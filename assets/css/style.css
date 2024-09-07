@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home {
+  flex: 1; /* Isso garante que o conteúdo ocupe o espaço necessário antes do footer */
+  background-image: url("../imgs/banner-background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#home span {
+  color: coral;
+}
+
+.nav-buttons {
+  margin-left: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons li:last-child {
+  margin-left: 8px;
+}
+
+footer {
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  color: azure;
+  margin-bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .logo {
+  width: 50px;
+  background-color: white;
+  padding: 5px;
+}
+
+.product-thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.contact-info {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
